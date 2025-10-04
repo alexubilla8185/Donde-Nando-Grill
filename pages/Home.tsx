@@ -39,7 +39,7 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section 
         className="relative h-[60vh] md:h-[80vh] bg-cover bg-center flex items-center justify-center text-white"
-        style={{ backgroundImage: "url('https://picsum.photos/seed/restaurant/1920/1080')" }}
+        style={{ backgroundImage: "url('https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-6/495050365_1238804574915421_5429618308686203609_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=1wCcPeAKzjIQ7kNvwEl2SGS&_nc_oc=AdncOBNDahI_o6o43-gMzzi7baHtmLPV8eTn2bdBd4oiKQQAu5jeYMRLryHAr4vecQ9q23Ur-6wtBJ5UG9-BBI26&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=uWTOHwYkq3_72EOstuOTsw&oh=00_Afd0XvPKN_Dp7NVavwPnPHqFj3Kl5DmQuW-rz1kwp9MSIg&oe=68E644A8')" }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center p-4">
