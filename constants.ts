@@ -114,6 +114,9 @@ export const translations = {
   emailDetail: { es: 'dondenando@gmail.com', en: 'dondenando@gmail.com' },
   openingHours: { es: 'Horario', en: 'Opening Hours' },
   hoursDetail: { es: 'Todos los días desde las 12:00 p.m.', en: 'Every day from 12:00 p.m.' },
+  // Gallery
+  galleryTitle: { es: 'Un Vistazo a Nando\'s', en: 'A Glimpse of Nando\'s' },
+  gallerySubtitle: { es: 'Momentos y sabores capturados en nuestro grill.', en: 'Moments and flavors captured at our grill.' },
   // Footer
   followUs: { es: 'Síguenos', en: 'Follow Us' },
 };
