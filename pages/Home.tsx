@@ -110,7 +110,7 @@ const Home: React.FC = () => {
             </div>
             <div className="order-1 md:order-2">
               <img 
-                src="https://picsum.photos/seed/cozyplace/600/400" 
+                src="https://scontent-mia3-2.xx.fbcdn.net/v/t39.30808-6/491934727_1224060856389793_8677961558266757014_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=SQJQjP11OZ8Q7kNvwEJTm33&_nc_oc=AdlRgxDtErkhcAHPkDMa4DolJcL8WAn-DaCx_Zk6fmpEG0YBNA1uasfHDRjNcQG-LaEAtlUMyuuEzt5IVeXuBgwP&_nc_zt=23&_nc_ht=scontent-mia3-2.xx&_nc_gid=KHzu5K3NyxEYfKKr3wL2jw&oh=00_AffTZcFMB5dBy37q0DlJZlaFJ2TnhM0kOLnxAPrid0Xlig&oe=68E64AA4" 
                 alt="Cozy restaurant atmosphere" 
                 className="rounded-lg shadow-2xl object-cover w-full h-full"
               />
