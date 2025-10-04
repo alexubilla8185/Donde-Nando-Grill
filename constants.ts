@@ -1,5 +1,7 @@
 import type { MenuItemType } from './types';
 
+const comingSoonImageUrl = 'COMING_SOON';
+
 export const menuItems: MenuItemType[] = [
   {
     id: 1,
@@ -7,7 +9,7 @@ export const menuItems: MenuItemType[] = [
     name: { es: 'Tostones con Queso Frito', en: 'Tostones with Fried Cheese' },
     description: { es: 'Plátanos verdes fritos servidos con queso frito y ensalada de repollo.', en: 'Fried green plantains served with fried cheese and cabbage salad.' },
     price: 'C$120',
-    imageUrl: 'https://picsum.photos/seed/tostones/400/300'
+    imageUrl: comingSoonImageUrl
   },
   {
     id: 2,
@@ -15,7 +17,7 @@ export const menuItems: MenuItemType[] = [
     name: { es: 'Chorizo Criollo a la Parrilla', en: 'Grilled Creole Chorizo' },
     description: { es: 'Chorizo casero a la parrilla con tortilla y pico de gallo.', en: 'Grilled homemade chorizo with tortilla and pico de gallo.' },
     price: 'C$150',
-    imageUrl: 'https://picsum.photos/seed/chorizo/400/300'
+    imageUrl: comingSoonImageUrl
   },
   {
     id: 3,
@@ -23,7 +25,7 @@ export const menuItems: MenuItemType[] = [
     name: { es: 'Churrasco Nando', en: 'Nando\'s Churrasco Steak' },
     description: { es: 'Tierno corte de res a la parrilla, acompañado de gallo pinto, plátano frito y ensalada.', en: 'Tender grilled beef cut, served with gallo pinto, fried plantain, and salad.' },
     price: 'C$350',
-    imageUrl: 'https://picsum.photos/seed/churrasco/400/300'
+    imageUrl: comingSoonImageUrl
   },
   {
     id: 4,
@@ -31,7 +33,7 @@ export const menuItems: MenuItemType[] = [
     name: { es: 'Pollo a la Plancha', en: 'Grilled Chicken Breast' },
     description: { es: 'Pechuga de pollo marinada y asada a la perfección, servida con vegetales salteados.', en: 'Marinated and perfectly grilled chicken breast, served with sautéed vegetables.' },
     price: 'C$280',
-    imageUrl: 'https://picsum.photos/seed/pollo/400/300'
+    imageUrl: comingSoonImageUrl
   },
    {
     id: 5,
@@ -39,7 +41,7 @@ export const menuItems: MenuItemType[] = [
     name: { es: 'Pescado Frito Entero', en: 'Whole Fried Fish' },
     description: { es: 'Pargo rojo frito al estilo local, con tostones y ensalada fresca.', en: 'Local style fried red snapper, with tostones and fresh salad.' },
     price: 'C$320',
-    imageUrl: 'https://picsum.photos/seed/pescado/400/300'
+    imageUrl: comingSoonImageUrl
   },
   {
     id: 6,
@@ -47,7 +49,7 @@ export const menuItems: MenuItemType[] = [
     name: { es: 'Tres Leches', en: 'Tres Leches Cake' },
     description: { es: 'Pastel esponjoso bañado en tres tipos de leche, cubierto con merengue.', en: 'Spongy cake soaked in three types of milk, topped with meringue.' },
     price: 'C$90',
-    imageUrl: 'https://picsum.photos/seed/tresleches/400/300'
+    imageUrl: comingSoonImageUrl
   },
   {
     id: 7,
@@ -55,7 +57,7 @@ export const menuItems: MenuItemType[] = [
     name: { es: 'Limonada con Hierbabuena', en: 'Lemonade with Mint' },
     description: { es: 'Refrescante limonada natural con un toque de hierbabuena fresca.', en: 'Refreshing natural lemonade with a touch of fresh mint.' },
     price: 'C$60',
-    imageUrl: 'https://picsum.photos/seed/limonada/400/300'
+    imageUrl: comingSoonImageUrl
   },
   {
     id: 8,
@@ -63,7 +65,7 @@ export const menuItems: MenuItemType[] = [
     name: { es: 'Cerveza Nacional Toña', en: 'Toña National Beer' },
     description: { es: 'La cerveza lager más popular de Nicaragua.', en: 'The most popular lager beer from Nicaragua.' },
     price: 'C$50',
-    imageUrl: 'https://picsum.photos/seed/tona/400/300'
+    imageUrl: comingSoonImageUrl
   }
 ];
 

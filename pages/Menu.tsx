@@ -5,9 +5,16 @@ import { useLanguage } from '../context/LanguageContext';
 
 const MenuItem: React.FC<{ item: MenuItemType }> = ({ item }) => {
   const { language } = useLanguage();
+  let imageUrl = item.imageUrl;
+
+  if (imageUrl === 'COMING_SOON') {
+    const text = language === 'es' ? 'Próximamente' : 'Coming+Soon';
+    imageUrl = `https://placehold.co/400x300/E5E7EB/1F2937/png?text=${text}`;
+  }
+
   return (
     <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 flex flex-col">
-      <img src={item.imageUrl} alt={item.name[language]} className="w-full h-48 object-cover" loading="lazy" />
+      <img src={imageUrl} alt={item.name[language]} className="w-full h-48 object-cover" loading="lazy" />
       <div className="p-6 flex flex-col flex-grow">
         <h3 className="text-xl font-bold font-serif text-brand-dark mb-2">{item.name[language]}</h3>
         <p className="text-gray-600 mb-4 flex-grow">{item.description[language]}</p>
